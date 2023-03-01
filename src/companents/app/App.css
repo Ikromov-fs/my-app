@@ -1,4 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 .App {
+  display: flex;
   text-align: center;
 }
 
@@ -32,7 +39,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  max-width: 1460px;
 }

@@ -1,0 +1,36 @@
+.parent__div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 5px;
+    margin-top: 128px;
+}
+
+.wropper {
+    width: 258px;
+    height: 134px;
+    background-color: #fcfaf5;
+    box-shadow: 5px 8px 15px #827c7c;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.wropper p {
+    font-size: 19px;
+    line-height: 24px;
+    margin: 20px 20px; 
+    font-weight: 500;
+}
+.wropper span {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.wropper:hover p {
+    color: #0000ff
+}
+
+.wropper:hover span {
+    color: #0000ff
+}
