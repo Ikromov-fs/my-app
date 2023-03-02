@@ -1,8 +1,10 @@
 import React from 'react'
-
+import './tiscets.css'
 const Tiscets = () => {
   return (
-    <div>Tiscetsddddd</div>
+    <div className='tiscets'>
+      <h1>Tiscets</h1>
+    </div>
   )
 }
 

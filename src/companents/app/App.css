@@ -48,3 +48,10 @@
 .container {
   max-width: 1460px;
 }
+
+.navbar {
+  display: flex;
+}
+.tasks{
+  position: relative;
+}

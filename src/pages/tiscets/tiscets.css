@@ -1,0 +1,11 @@
+.tiscets {
+    position: relative;
+}
+
+.tiscets h1 {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+}
